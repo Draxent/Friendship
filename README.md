@@ -5,7 +5,7 @@ Friends' recommendation algorithm using Hadoop MapReduce framework.
 
 This algorithm implements a simple “People You Might Know” social network friendship recommendation algorithm.<br />
 The key idea is that if two people have a lot of mutual friends, then the system should recommend that they connect with each other.<br />
-For each user, the algorithm will recommend at maximum <b>10</b> users who are not already friends with that user, but have the most number of mutual friends in common with U.
+For each user, the algorithm will recommend at maximum of <b>10</b> users who are not already friends with that user, but have the most number of mutual friends in common with that user.
 
 The implementation is inspired by [tonellotto](https://github.com/tonellotto); you can find [here](https://github.com/tonellotto/Distributed-Enabling-Platforms/tree/master/exercises/10.%20friendship) his solution.
 
