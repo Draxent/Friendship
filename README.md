@@ -27,8 +27,7 @@ $HADOOP_HOME/bin/hadoop jar target/friendship-1.0-SNAPSHOT.jar pad.FriendDriver 
 
 ### Input
 You can download an example of social graph from this [link](./social_graph.txt).
-
-The input file contains the adjacency list, it has multiple lines in the following format:
+The input file has to contains the adjacency list of the graph, i.e. multiple lines in the following format:
 
     <UserID><TAB><Friends>
 
