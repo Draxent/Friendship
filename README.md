@@ -9,7 +9,7 @@ For each user, the algorithm will recommend at maximum of <b>10</b> users who ar
 
 The implementation is inspired by [tonellotto](https://github.com/tonellotto); you can find [here](https://github.com/tonellotto/Distributed-Enabling-Platforms/tree/master/exercises/10.%20friendship) his solution.
 
-#Compile
+###Compile
 To compile the program, you'll need to use the following command lines:
 
 ```bash
@@ -17,7 +17,7 @@ cd Friendship
 mvn package
 ```
 
-##Usage
+###Usage
 To run the program, you'll need to use the following command lines:
 
 ```bash
