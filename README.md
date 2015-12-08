@@ -36,7 +36,7 @@ The input file contains the adjacency list, it has multiple lines in the followi
 - `<Friends>`: is a comma separated list of increasing unique IDs corresponding to the friends of the user.
 
 ### Output
-The output should contain one line per user in the following format:
+The output will contains one line per user, in the following format:
 
     <User><TAB><Recommendations>
 
