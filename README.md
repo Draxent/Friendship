@@ -9,11 +9,20 @@ For each user, the algorithm will recommend at maximum of <b>10</b> users who ar
 
 The implementation is inspired by [tonellotto](https://github.com/tonellotto); you can find [here](https://github.com/tonellotto/Distributed-Enabling-Platforms/tree/master/exercises/10.%20friendship) his solution.
 
-##Usage
-To run the program, you'll need to use the following command line:
+#Compile
+To compile the program, you'll need to use the following command lines:
 
 ```bash
-hadoop jar FriendDriver graph_input.txt output
+cd Friendship
+mvn package
+```
+
+##Usage
+To run the program, you'll need to use the following command lines:
+
+```bash
+$HADOOP_HOME/bin/hadoop put $DATASET_PATH/graph_input.txt graph_input.txt
+$HADOOP_HOME/bin/hadoop jar target/friendship-1.0-SNAPSHOT.jar pad.FriendDriver graph_input.txt output
 ```
 
 ### Input
