@@ -1,6 +1,6 @@
 # Friendship
 
-###Description
+### Description
 Friends' recommendation algorithm using Hadoop MapReduce framework.
 
 This algorithm implements a simple “People You Might Know” social network friendship recommendation algorithm.<br />
@@ -9,7 +9,7 @@ For each user, the algorithm will recommend at maximum of <b>10</b> users who ar
 
 The implementation is inspired by [tonellotto](https://github.com/tonellotto); you can find [here](https://github.com/tonellotto/Distributed-Enabling-Platforms/tree/master/exercises/10.%20friendship) his solution.
 
-###Compile
+### Compile
 To compile the program, you'll need to use the following command lines:
 
 ```bash
@@ -17,7 +17,7 @@ cd Friendship
 mvn package
 ```
 
-###Usage
+### Usage
 To run the program, you'll need to use the following command lines:
 
 ```bash
@@ -42,7 +42,7 @@ The output will contains one line per user, in the following format:
 - `<User>` is a unique ID corresponding to an unique user.
 - `<Recommendations>` is a comma separated list of unique IDs corresponding to the algorithm’s recommendation of people that `<User>` might know, ordered in decreasing number of mutual friends.
 
-###License
+### License
 The MIT License (MIT)
 
 Copyright (c) 2015 Federico Conte
